@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom"; // <-- ajouter
 
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter basename="/PF/"> {/* <-- important pour GitHub Pages */}
+  <BrowserRouter basename="/PF"> {/* <-- important pour GitHub Pages */}
     <App />
   </BrowserRouter>
 );
